@@ -1,0 +1,28 @@
+@import "../styles/variables.scss";
+
+// to be removed on bulma 0.7.3
+.is-family-secondary {
+  font-family: $family-secondary;
+}
+
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+.searchbox {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}

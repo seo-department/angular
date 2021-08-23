@@ -1,0 +1,26 @@
+<app-menu></app-menu>
+
+<router-outlet></router-outlet>
+<app-widget-search-bar></app-widget-search-bar>
+
+<footer class="footer is-family-secondary">
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <app-external-links></app-external-links>                  
+                </div>
+                <div class="column">
+                    <app-navigation-links [navigationID]="footerNavigationID"></app-navigation-links>
+                </div>
+            </div>
+            <p>
+              Copyright 2002 - 2021 Crazy Vegas
+            </p>
+        </div>
+      </section>
+      
+</footer>
+
+
+
